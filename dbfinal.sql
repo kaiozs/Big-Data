@@ -1,0 +1,75 @@
+CREATE DATABASE projetopython_db;
+
+USE projetopython_db;
+
+CREATE TABLE IF NOT EXISTS equip_censu_nacional (
+	ANO int,
+	TIPO_INSTITUICAO varchar(50),
+	QUANT_INSTITUICAO int,
+	INTERNET int,
+	WIFI int,
+	INTERNET_ALUNOS int,
+	INTERNET_ADM int,
+	INTERNET_ENSINO int,
+	LOUSA_DIGITAL int,
+	PROJETOR int,
+	DESKTOP_ALUNOS int,
+	NOTEBOOK_ALUNOS int,
+	TABLET_ALUNOS int
+);
+
+CREATE TABLE IF NOT EXISTS equip_censu_nordeste (
+	REGIAO varchar(50),
+    ESTADO varchar(50),
+    ANO int,
+	TIPO_INSTITUICAO varchar(50),
+	QUANT_INSTITUICAO int,
+	INTERNET int,
+	WIFI int,
+	INTERNET_ALUNOS int,
+	INTERNET_ADM int,
+	INTERNET_ENSINO int,
+	LOUSA_DIGITAL int,
+	PROJETOR int,
+	DESKTOP_ALUNOS int,
+	NOTEBOOK_ALUNOS int,
+	TABLET_ALUNOS int
+);
+
+USE projetopython_db;
+
+CREATE TABLE IF NOT EXISTS equip_censu_norte (
+	REGIAO varchar(50),
+    ESTADO varchar(50),
+    ANO int,
+	TIPO_INSTITUICAO varchar(50),
+	QUANT_INSTITUICAO int,
+	INTERNET int,
+	WIFI int,
+	INTERNET_ALUNOS int,
+	INTERNET_ADM int,
+	INTERNET_ENSINO int,
+	LOUSA_DIGITAL int,
+	PROJETOR int,
+	DESKTOP_ALUNOS int,
+	NOTEBOOK_ALUNOS int,
+	TABLET_ALUNOS int
+);  
+
+CREATE TABLE IF NOT EXISTS equip_censu_sudeste (
+	REGIAO varchar(50),
+    ESTADO varchar(50),
+    ANO int,
+	TIPO_INSTITUICAO varchar(50),
+	QUANT_INSTITUICAO int,
+	INTERNET int,
+	WIFI int,
+	INTERNET_ALUNOS int,
+	INTERNET_ADM int,
+	INTERNET_ENSINO int,
+	LOUSA_DIGITAL int,
+	PROJETOR int,
+	DESKTOP_ALUNOS int,
+	NOTEBOOK_ALUNOS int,
+	TABLET_ALUNOS int
+); 
